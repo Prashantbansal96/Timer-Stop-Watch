@@ -1,0 +1,82 @@
+/* Set default font family and size for the entire document */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Add some padding to the body to give the content some breathing room */
+body {
+    padding: 20px;
+    border-color: #333;
+}
+
+/* Style the timer and stopwatch containers */
+.timer,
+.stopwatch {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* Style the timer and stopwatch headers */
+.timer h1,
+.stopwatch h1 {
+    font-size: 24px;
+    color: #f8f8f8;
+    font-weight: bold;
+    text-align: center;     
+    margin: 0;
+    padding: 20px;
+    background-color: #07463b;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style the timer input and output elements */
+.timer input[type="text"],
+.timer p,
+.stopwatch p {
+    font-size: 32px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #f8f8f8;
+    text-align: center;
+    width: 100%;
+}
+
+/* Style the timer and stopwatch buttons */
+.timer button,
+.stopwatch button {
+    background-color: #07463b;
+    border: none;
+    color: #fdf9f9;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Hover state for the timer and stopwatch buttons */
+.timer button:hover,
+.stopwatch button:hover {
+    opacity: 0.8;
+}
+
+/* Active state for the timer and stopwatch buttons */
+.timer button:active,
+.stopwatch button:active {
+    background-color: #40afdb;
+}
